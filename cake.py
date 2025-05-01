@@ -24,9 +24,9 @@ class CakeManagement:
             for cake in self.cakes:
                 print(cake)
 
-    def remove_cake(self, name):
-        for cake in self.cakes:
-            if cake.name == name:
+    def remove_cake(self, name)
+        for cake in self.cakes
+            if cake.name == name
                 self.cakes.remove(cake)
                 print(f"Cake '{name}' removed successfully!")
                 return
